@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+/* html {
+    box-sizing: border-box;
+}
+    *,
+*::before,
+*::after {
+box-sizing: inherit;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* pushes header logo ele and nav eles apart */
+}
+
+header div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.left, .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.intro-image {
+    height: 100%;
+    max-width: 35%;
+    object-fit: cover;
+    border: 2px solid #E5E7EB; /* Adding a border */
+    border-radius: 8px; /* Adding rounded corners to the border */
+    margin-left: 20px;
+}
+
+#intro {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+#intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 100px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */    
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px; /* This will make the edges rounded */
+    border-color: #3882F6;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#products h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.img_container {
+    font-size: 18px;
+    color: #7b8188;
+    display: flex;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid #E5E7EB; /* Adding a border */
+    border-radius: 8px; /* Adding rounded corners to the border */
+    flex: 1;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 40px 100px;
+    text-align: left;
+}
+
+#quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#quote small {
+    display: block; /* Make it a block-level element */
+    text-align: right;
+    font-weight: 1000;
+}
+
+#action .txt_box p {
+    font-size: 18px;
+}
+
+#action .txt_box p strong {
+    font-weight: 900;
+}
+
+#action button {
+    border-color: white;  
+      
+}
+
+#action {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #E5E7EB; /* Adding a border */
+    border-radius: 8px; /* Adding rounded corners to the border */
+    padding: 40px 20px;
+    margin: 50px 100px;
+    display: flex
+}
